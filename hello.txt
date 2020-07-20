@@ -2,3 +2,4 @@ push 1 push 2
 lan 2
 git push 1
 push 2
+push 3
