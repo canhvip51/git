@@ -9,7 +9,6 @@ void print(int x){
 	cout<<endl;
 }
 void gen(int k){
-	
 	if(sum==n||k>n)
 	{
 		if(sum==n)
@@ -28,7 +27,6 @@ void gen(int k){
 		vt++;
 		gen(k+1);
 	}
-	
 	sum-=a[vt];
 	vt--;
 	return;

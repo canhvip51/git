@@ -6,12 +6,16 @@ void p(int n){
 	cout<<0<<" ";
 }
 void mt(int m,int n){
-	for(int i=0; i<m;i++){
-		p(n);
-	cout<<endl;
+	if(n>1){
+		p(n-1);
+		cout<<0<<" ";	
+	}
+	if(m>1){
+		cout<<endl;
+		mt(m-1,n);
 	}
 }
 int main(){
-mt(3,2);
+mt(3,5);
 return 0;
 }
