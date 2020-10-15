@@ -19,7 +19,7 @@ void gen(int k){
 	}
 }
 int main(){
-	n=3;
+	n=4;
 	gen(1);
 	return 0;
 }
